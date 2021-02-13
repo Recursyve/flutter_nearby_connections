@@ -24,7 +24,7 @@ class NearbyService {
   static const MethodChannel _channel =
       const MethodChannel('flutter_nearby_connections');
 
-  final _stateChangedController = StreamController<List<Device>>.broadcast();
+  final _stateChangedController = BehaviorSubject<List<Device>>.seeded([]);
 
   Stream<List<Device>> get _stateChangedStream =>
       _stateChangedController.stream;
