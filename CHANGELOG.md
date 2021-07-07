@@ -1,3 +1,15 @@
+## 1.1.1
+
+* Update readme - test on the real Android device.
+
+## 1.1.0
+
+* Fix android devices are not able to see each other.
+
+## 1.0.11
+
+* Support Null Safety
+
 ## 1.0.10
 
 * refactor readme and code
